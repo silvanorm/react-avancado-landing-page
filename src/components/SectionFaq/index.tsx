@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
 
-import Container from 'components/Container'
-import Heading from 'components/Heading'
+import Container from 'components/Container';
+import Heading from 'components/Heading';
 
-import faq from './content'
-import * as S from './styles'
+import faq from './content';
+import * as S from './styles';
 
 const SectionFaq = () => (
   <S.Wrapper>
@@ -45,6 +45,6 @@ const SectionFaq = () => (
       </Container>
     </S.Content>
   </S.Wrapper>
-)
+);
 
-export default SectionFaq
+export default SectionFaq;

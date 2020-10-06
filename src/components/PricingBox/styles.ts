@@ -1,5 +1,5 @@
-import styled, { css } from 'styled-components'
-import media from 'styled-media-query'
+import styled, { css } from 'styled-components';
+import media from 'styled-media-query';
 
 export const Box = styled.section`
   ${({ theme }) => css`
@@ -18,7 +18,7 @@ export const Box = styled.section`
       border-radius: ${theme.border.radius};
     `}
   `}
-`
+`;
 
 export const Prices = styled.div`
   ${({ theme }) => css`
@@ -32,7 +32,7 @@ export const Prices = styled.div`
       margin-bottom: ${theme.spacings.large};
     `}
   `}
-`
+`;
 
 export const FullPrice = styled.p`
   ${({ theme }) => css`
@@ -44,7 +44,7 @@ export const FullPrice = styled.p`
       text-decoration: line-through;
     }
   `}
-`
+`;
 
 export const DiscountPrice = styled.p`
   ${({ theme }) => css`
@@ -57,14 +57,14 @@ export const DiscountPrice = styled.p`
       font-size: ${theme.font.sizes.medium};
     }
   `}
-`
+`;
 
 export const BenefitsList = styled.ul`
   ${({ theme }) => css`
     list-style: none;
     margin-bottom: ${theme.spacings.large};
   `}
-`
+`;
 
 export const BenefitsItem = styled.li`
   ${({ theme }) => css`
@@ -88,7 +88,7 @@ export const BenefitsItem = styled.li`
       margin-bottom: ${theme.spacings.xsmall};
     }
   `}
-`
+`;
 
 export const ButtonFullPrice = styled.span`
   ${({ theme }) => css`
@@ -97,10 +97,10 @@ export const ButtonFullPrice = styled.span`
     margin-right: ${theme.spacings.xxsmall};
     font-size: ${theme.font.sizes.xsmall};
   `}
-`
+`;
 
 export const ButtonDiscountPrice = styled.span`
   ${({ theme }) => css`
     font-size: ${theme.font.sizes.medium};
   `}
-`
+`;

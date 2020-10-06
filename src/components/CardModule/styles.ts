@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components'
+import styled, { css } from 'styled-components';
 
 export const Card = styled.article`
   ${({ theme }) => css`
@@ -8,7 +8,7 @@ export const Card = styled.article`
     font-size: ${theme.font.sizes.xsmall};
     border-radius: ${theme.border.radius};
   `}
-`
+`;
 
 export const TitleWrapper = styled.div`
   ${({ theme }) => css`
@@ -16,14 +16,14 @@ export const TitleWrapper = styled.div`
     padding-left: ${theme.spacings.xsmall};
     margin-bottom: ${theme.spacings.xsmall};
   `}
-`
+`;
 
 export const Title = styled.h3`
   ${({ theme }) => css`
     font-size: ${theme.font.sizes.medium};
     font-weight: bold;
   `}
-`
+`;
 
 export const SubTitle = styled.h4`
   ${({ theme }) => css`
@@ -31,7 +31,7 @@ export const SubTitle = styled.h4`
     font-weight: normal;
     color: ${theme.colors.gray};
   `}
-`
+`;
 
 export const Content = styled.div`
   ${({ theme }) => css`
@@ -39,4 +39,4 @@ export const Content = styled.div`
       margin-top: ${theme.spacings.small};
     }
   `}
-`
+`;

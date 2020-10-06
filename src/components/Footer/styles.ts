@@ -1,5 +1,5 @@
-import styled, { css } from 'styled-components'
-import media from 'styled-media-query'
+import styled, { css } from 'styled-components';
+import media from 'styled-media-query';
 
 export const Wrapper = styled.footer`
   ${({ theme }) => css`
@@ -24,4 +24,4 @@ export const Wrapper = styled.footer`
       border-bottom: 1px solid ${theme.colors.primary};
     }
   `}
-`
+`;

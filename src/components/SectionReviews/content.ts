@@ -83,6 +83,6 @@ const reviews = [
     description:
       'Didática incrível. O conhecimento básico no início do curso me serviu como revisão. Aquilo que já sabia fui passando rapidamente. Iniciei agora a parte prática de testes e gostei muito do exemplo real, assim como qualidade do audio e também conteúdo. Gostei muito que o autor explica algumas "teorias" em torno do que estamos fazendo e isso a longo prazo fixa melhor o conteúdo e faz total diferença.'
   }
-]
+];
 
-export default reviews
+export default reviews;

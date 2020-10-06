@@ -1,5 +1,5 @@
-import styled, { css } from 'styled-components'
-import media from 'styled-media-query'
+import styled, { css } from 'styled-components';
+import media from 'styled-media-query';
 
 export const Wrapper = styled.section`
   ${({ theme }) => css`
@@ -10,7 +10,7 @@ export const Wrapper = styled.section`
       padding: ${theme.spacings.xlarge} ${theme.spacings.medium} 0;
     `}
   `}
-`
+`;
 
 export const IconsContainer = styled.div`
   ${({ theme }) => css`
@@ -30,9 +30,9 @@ export const IconsContainer = styled.div`
       row-gap: ${theme.spacings.large};
     `};
   `}
-`
+`;
 
-export const Icon = styled.div``
+export const Icon = styled.div``;
 
 export const Icons = styled.img`
   width: 7rem;
@@ -43,7 +43,7 @@ export const Icons = styled.img`
     width: 12.8rem;
     height: 12.8rem;
   `}
-`
+`;
 
 export const IconsName = styled.p`
   ${({ theme }) => css`
@@ -55,4 +55,4 @@ export const IconsName = styled.p`
       font-weight: ${theme.font.bold};
     `}
   `}
-`
+`;

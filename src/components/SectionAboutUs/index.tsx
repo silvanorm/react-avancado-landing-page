@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-import Heading from 'components/Heading'
-import Container from 'components/Container'
-import ProfileCard from 'components/ProfileCard'
+import Heading from 'components/Heading';
+import Container from 'components/Container';
+import ProfileCard from 'components/ProfileCard';
 
-import content from './content'
-import * as S from './styles'
+import content from './content';
+import * as S from './styles';
 
 const SectionAboutUs = () => (
   <Container>
@@ -24,6 +24,6 @@ const SectionAboutUs = () => (
       ))}
     </S.Content>
   </Container>
-)
+);
 
-export default SectionAboutUs
+export default SectionAboutUs;

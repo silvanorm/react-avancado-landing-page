@@ -1,5 +1,5 @@
-import styled, { css } from 'styled-components'
-import media from 'styled-media-query'
+import styled, { css } from 'styled-components';
+import media from 'styled-media-query';
 
 export const Box = styled.section`
   ${({ theme }) => css`
@@ -12,7 +12,7 @@ export const Box = styled.section`
       padding: ${theme.spacings.large};
     `}
   `}
-`
+`;
 
 export const List = styled.ul`
   ${({ theme }) => css`
@@ -27,7 +27,7 @@ export const List = styled.ul`
       column-count: 3;
     `}
   `}
-`
+`;
 
 export const Item = styled.li`
   ${({ theme }) => css`
@@ -50,4 +50,4 @@ export const Item = styled.li`
       margin-bottom: ${theme.spacings.xsmall};
     }
   `}
-`
+`;

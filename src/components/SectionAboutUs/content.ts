@@ -33,6 +33,6 @@ const content = [
       { slug: 'github', link: 'https://github.com/vmarcosp' }
     ]
   }
-]
+];
 
-export default content
+export default content;

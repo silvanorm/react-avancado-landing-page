@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
 
-import Heading from 'components/Heading'
-import Container from 'components/Container'
+import Heading from 'components/Heading';
+import Container from 'components/Container';
 
-import icons from './content'
-import * as S from './styles'
+import icons from './content';
+import * as S from './styles';
 
 const SectionTech = () => (
   <S.Wrapper>
@@ -20,6 +20,6 @@ const SectionTech = () => (
       </S.IconsContainer>
     </Container>
   </S.Wrapper>
-)
+);
 
-export default SectionTech
+export default SectionTech;

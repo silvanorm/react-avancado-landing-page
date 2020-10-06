@@ -29,6 +29,6 @@ const faq = [
     answer:
       'Definitivamente! A ideia é que vocês tenham um projeto de verdade que possam utilizar como bem entenderem.'
   }
-]
+];
 
-export default faq
+export default faq;

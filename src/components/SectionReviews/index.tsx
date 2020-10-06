@@ -1,12 +1,12 @@
-import React from 'react'
-import Slider from 'react-slick'
+import React from 'react';
+import Slider from 'react-slick';
 
-import Container from 'components/Container'
-import Heading from 'components/Heading'
-import ReviewCard from 'components/ReviewCard'
+import Container from 'components/Container';
+import Heading from 'components/Heading';
+import ReviewCard from 'components/ReviewCard';
 
-import reviews from './content'
-import * as S from './styles'
+import reviews from './content';
+import * as S from './styles';
 
 const settings = {
   dots: true,
@@ -28,7 +28,7 @@ const settings = {
       }
     }
   ]
-}
+};
 
 const SectionReviews = () => (
   <Container>
@@ -48,6 +48,6 @@ const SectionReviews = () => (
       </Slider>
     </S.Content>
   </Container>
-)
+);
 
-export default SectionReviews
+export default SectionReviews;

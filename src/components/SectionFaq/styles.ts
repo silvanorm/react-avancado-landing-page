@@ -1,5 +1,5 @@
-import styled, { css } from 'styled-components'
-import media from 'styled-media-query'
+import styled, { css } from 'styled-components';
+import media from 'styled-media-query';
 
 export const Wrapper = styled.div`
   ${({ theme }) => css`
@@ -11,11 +11,11 @@ export const Wrapper = styled.div`
       padding-bottom: ${theme.spacings.xxlarge};
     `}
   `}
-`
+`;
 
 export const Content = styled.div`
   transform: skewY(-4deg);
-`
+`;
 
 export const Questions = styled.div`
   ${({ theme }) => css`
@@ -31,7 +31,7 @@ export const Questions = styled.div`
       margin-top: ${theme.spacings.xlarge};
     `}
   `}
-`
+`;
 
 export const Question = styled.div`
   ${({ theme }) => css`
@@ -41,7 +41,7 @@ export const Question = styled.div`
       border-bottom: 1px solid ${theme.colors.primary};
     }
   `}
-`
+`;
 
 export const ExtraQuestion = styled.div`
   ${({ theme }) => css`
@@ -57,4 +57,4 @@ export const ExtraQuestion = styled.div`
       margin-top: ${theme.spacings.xlarge};
     `}
   `}
-`
+`;

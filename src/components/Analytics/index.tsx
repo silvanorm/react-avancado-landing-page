@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Analytics = () => (
   <>
@@ -19,6 +19,6 @@ const Analytics = () => (
       }}
     />
   </>
-)
+);
 
-export default Analytics
+export default Analytics;

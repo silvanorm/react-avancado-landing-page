@@ -1,5 +1,5 @@
-import styled, { css } from 'styled-components'
-import media from 'styled-media-query'
+import styled, { css } from 'styled-components';
+import media from 'styled-media-query';
 
 export const Wrapper = styled.header`
   text-align: center;
@@ -8,7 +8,7 @@ export const Wrapper = styled.header`
     text-align: left;
     margin: auto;
   `}
-`
+`;
 
 export const Content = styled.div`
   display: flex;
@@ -21,7 +21,7 @@ export const Content = styled.div`
     justify-content: space-between;
     margin: 15rem auto;
   `}
-`
+`;
 
 export const TextBlock = styled.div`
   ${({ theme }) => css`
@@ -35,7 +35,7 @@ export const TextBlock = styled.div`
       padding-right: ${theme.spacings.medium};
     `}
   `}
-`
+`;
 
 export const Title = styled.h1`
   ${({ theme }) => css`
@@ -46,7 +46,7 @@ export const Title = styled.h1`
       display: none;
     `}
   `}
-`
+`;
 
 export const Description = styled.h2`
   ${({ theme }) => css`
@@ -59,7 +59,7 @@ export const Description = styled.h2`
       line-height: min(5rem, 4.5vw);
     `}
   `}
-`
+`;
 
 export const ButtonWrapper = styled.div`
   ${({ theme }) => css`
@@ -72,7 +72,7 @@ export const ButtonWrapper = styled.div`
       padding-right: ${theme.spacings.medium};
     `}
   `}
-`
+`;
 
 export const Image = styled.img`
   ${({ theme }) => css`
@@ -84,4 +84,4 @@ export const Image = styled.img`
       width: 42rem;
     `}
   `}
-`
+`;

@@ -1,5 +1,5 @@
-import styled, { css } from 'styled-components'
-import media from 'styled-media-query'
+import styled, { css } from 'styled-components';
+import media from 'styled-media-query';
 
 export const Text = styled.div`
   ${({ theme }) => css`
@@ -18,4 +18,4 @@ export const Text = styled.div`
       border-bottom: 2px solid ${theme.colors.primary};
     }
   `}
-`
+`;

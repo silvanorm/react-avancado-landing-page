@@ -39,6 +39,6 @@ const icons = [
     name: 'Cypress',
     image: 'cypress.svg'
   }
-]
+];
 
-export default icons
+export default icons;

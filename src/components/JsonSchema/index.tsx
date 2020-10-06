@@ -1,5 +1,5 @@
-import React from 'react'
-import { CourseJsonLd, ProductJsonLd } from 'next-seo'
+import React from 'react';
+import { CourseJsonLd, ProductJsonLd } from 'next-seo';
 
 const JsonSchema = () => (
   <>
@@ -65,6 +65,6 @@ const JsonSchema = () => (
       sku="reactavancado"
     />
   </>
-)
+);
 
-export default JsonSchema
+export default JsonSchema;

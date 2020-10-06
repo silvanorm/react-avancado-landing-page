@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-import Heading from 'components/Heading'
-import Container from 'components/Container'
-import CardModule from 'components/CardModule'
+import Heading from 'components/Heading';
+import Container from 'components/Container';
+import CardModule from 'components/CardModule';
 
-import content from './content'
-import * as S from './styles'
+import content from './content';
+import * as S from './styles';
 
 const SectionModules = () => (
   <Container>
@@ -19,6 +19,6 @@ const SectionModules = () => (
       ))}
     </S.Content>
   </Container>
-)
+);
 
-export default SectionModules
+export default SectionModules;

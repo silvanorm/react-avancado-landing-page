@@ -1,14 +1,14 @@
-import React from 'react'
+import React from 'react';
 
-import Logo from 'components/Logo'
-import Button from 'components/Button'
-import * as S from './styles'
+import Logo from 'components/Logo';
+import Button from 'components/Button';
+import * as S from './styles';
 
-import { gaEvent } from 'utils/ga'
-import Container from 'components/Container'
+import { gaEvent } from 'utils/ga';
+import Container from 'components/Container';
 
 const onClick = () =>
-  gaEvent({ action: 'click', category: 'cta', label: 'hero button' })
+  gaEvent({ action: 'click', category: 'cta', label: 'hero button' });
 
 const SectionHero = () => (
   <S.Wrapper>
@@ -39,6 +39,6 @@ const SectionHero = () => (
       </S.Content>
     </Container>
   </S.Wrapper>
-)
+);
 
-export default SectionHero
+export default SectionHero;

@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 
-import Container from 'components/Container'
+import Container from 'components/Container';
 
-import * as S from './styles'
+import * as S from './styles';
 
 const Footer = () => (
   <S.Wrapper>
@@ -17,6 +17,6 @@ const Footer = () => (
       </p>
     </Container>
   </S.Wrapper>
-)
+);
 
-export default Footer
+export default Footer;

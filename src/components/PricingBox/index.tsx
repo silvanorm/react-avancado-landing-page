@@ -1,12 +1,12 @@
-import React from 'react'
+import React from 'react';
 
-import Button from 'components/Button'
-import { gaEvent } from 'utils/ga'
+import Button from 'components/Button';
+import { gaEvent } from 'utils/ga';
 
-import * as S from './styles'
+import * as S from './styles';
 
 const onClick = () =>
-  gaEvent({ action: 'click', category: 'buy', label: 'pricing box button' })
+  gaEvent({ action: 'click', category: 'buy', label: 'pricing box button' });
 
 const PricingBox = () => (
   <S.Box>
@@ -48,6 +48,6 @@ const PricingBox = () => (
       </div>
     </Button>
   </S.Box>
-)
+);
 
-export default PricingBox
+export default PricingBox;

@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-import Container from 'components/Container'
-import Heading from 'components/Heading'
+import Container from 'components/Container';
+import Heading from 'components/Heading';
 
-import * as S from './styles'
+import * as S from './styles';
 
 const SectionAgenda = () => (
   <Container id="agenda">
@@ -26,6 +26,6 @@ const SectionAgenda = () => (
       </p>
     </S.Text>
   </Container>
-)
+);
 
-export default SectionAgenda
+export default SectionAgenda;

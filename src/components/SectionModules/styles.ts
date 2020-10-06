@@ -1,5 +1,5 @@
-import styled, { css } from 'styled-components'
-import media from 'styled-media-query'
+import styled, { css } from 'styled-components';
+import media from 'styled-media-query';
 
 export const Content = styled.div`
   ${({ theme }) => css`
@@ -12,4 +12,4 @@ export const Content = styled.div`
       grid-template-columns: 1fr 1fr;
     `}
   `}
-`
+`;

@@ -1,7 +1,7 @@
-import React from 'react'
-import { FaFacebook, FaTwitter } from 'react-icons/fa'
+import React from 'react';
+import { FaFacebook, FaTwitter } from 'react-icons/fa';
 
-import * as S from './styles'
+import * as S from './styles';
 
 const ShareButtons = () => (
   <S.Wrapper>
@@ -23,6 +23,6 @@ const ShareButtons = () => (
       <FaTwitter />
     </a>
   </S.Wrapper>
-)
+);
 
-export default ShareButtons
+export default ShareButtons;

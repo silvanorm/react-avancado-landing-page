@@ -40,4 +40,4 @@ export default {
     xlarge: '6.4rem',
     xxlarge: '12.8rem'
   }
-}
+};

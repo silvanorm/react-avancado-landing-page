@@ -17,6 +17,6 @@ const content = [
   'Fluxo de pagamentos',
   'Criação de pipelines em CI',
   'Deploy automatizado'
-]
+];
 
-export default content
+export default content;

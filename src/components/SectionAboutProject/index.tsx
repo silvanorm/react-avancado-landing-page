@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-import Heading from 'components/Heading'
-import Container from 'components/Container'
+import Heading from 'components/Heading';
+import Container from 'components/Container';
 
-import * as S from './styles'
+import * as S from './styles';
 
 const SectionAboutProject = () => (
   <S.Wrapper>
@@ -48,6 +48,6 @@ const SectionAboutProject = () => (
       </S.Container>
     </Container>
   </S.Wrapper>
-)
+);
 
-export default SectionAboutProject
+export default SectionAboutProject;

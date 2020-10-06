@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components'
+import styled, { css } from 'styled-components';
 
 export const Content = styled.section`
   ${({ theme }) => css`
@@ -111,4 +111,4 @@ export const Content = styled.section`
       }
     }
   `}
-`
+`;
